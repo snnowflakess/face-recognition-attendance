@@ -1,5 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+# =========================
+# FRONTEND (React) ignores
+# =========================
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +22,102 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# =========================
+# BACKEND (Python / FastAPI) ignores
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django / Flask / DB stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# Jupyter / Notebooks
+.ipynb_checkpoints
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Editor files
+.spyderproject
+.spyproject
+.ropeproject
+.idea/
+.vscode/
+
+# mypy / Ruff / Pyre
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Cython debug
+cython_debug/
+
+# Misc
+.marimo/
+__marimo__/
+.cursorignore
+.cursorindexingignore
